@@ -1,0 +1,81 @@
+doctype html
+html
+	head
+		title my company
+		meta( name='viewport', content='width=device-width, initial-scale=1' )
+		meta( charset='utf-8' )
+		link(rel='stylesheet', type='text/css', href='../css/style.css')
+		script(src="../js/carouselengine/jquery.js")
+		script(src="../js/carouselengine/amazingcarousel.js")
+		link(rel='stylesheet', type='text/css', href='../js/carouselengine/initcarousel-1.css')
+		script(src="../js/carouselengine/initcarousel-1.js")
+	body
+		div#main
+			header#header
+				div#menu
+					ul
+						li.active.menuLi 
+							a(href="#") Главная
+						li.menuLi
+							a(href="#") О нас 
+						li.menuLi
+							a(href="#") Портфолио 
+						li.menuLi
+							a(href="#") Услуги 
+						li.menuLi
+							a(href="#") Цены 
+						li.menuLi
+							a(href="#") Калькулятор 
+						li.menuLi
+							a(href="#") Статьи 
+						li.menuLi
+							a(href="#") Контакты 
+				div#phone 8(800)555-35-35
+				div#name WEB Project
+				h1 Дизайн и разработка<br> сайтов под ключ
+				div#buttonPrice Рассчитать цену
+				div#laptop
+					img(src="../img/laptop.png")
+			div#works
+				h2 Примеры работ
+				div#lineWorks
+					div#lineWorks1
+					div#lineWorks2
+					div#lineWorks3
+					div#lineWorks4
+					div#lineWorks5
+				div#sliderWorks
+					
+
+				p#worksAll
+					a(href="#") Смотреть все
+
+		div#price
+			h2 Наши цены
+			div#linePrice
+				div#linePrice1
+				div#linePrice2
+				div#linePrice3
+			div#priceCard
+				#allCard
+					.priceCard#priceCard1
+						p.priceCardName Сайт визитка
+						.priceCardPrice
+							p От 7 000 руб.
+						.priceCardDesc
+							p.priceCardDescText В цену входит
+							p.priceCardDescText И этот пункт тожев
+						button.priceCardButton Подробнее
+
+		div#contacts
+			h2 Контакты
+			div#form
+				h3 Начните работу с нами
+				form
+					input(type="text" name="name")
+					input(type="text" name="emeil")
+					textarea(name="text")
+					div#send Отправить
+			div#contact
+
+
